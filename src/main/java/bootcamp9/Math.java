@@ -31,8 +31,7 @@ public class Math {
 	/***
 	 * Suma de enteros utilizando Stream
 	 * 
-	 * @param x
-	 * @param y
+	 * @param lista la lista de enteros
 	 * @return resultado como entero
 	 */
 	public static int sumStream(List<Integer> lista) {
@@ -41,8 +40,7 @@ public class Math {
 	/***
 	 * Producto de enteros utilizando Stream
 	 * 
-	 * @param x
-	 * @param y
+	 * @param lista la lista de enteros
 	 * @return resultado como entero
 	 */
 	public static int producStream(List<Integer> lista) {
@@ -51,8 +49,7 @@ public class Math {
 	/***
 	 * Cantidad items en la lista
 	 * 
-	 * @param x
-	 * @param y
+	 * @param lista la lista de enteros
 	 * @return resultado como entero
 	 */
 	public static int contadorStream(List<Integer> lista) {
