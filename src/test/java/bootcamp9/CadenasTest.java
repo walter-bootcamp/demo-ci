@@ -29,7 +29,7 @@ class CadenasTest {
 	}
 	@Test
 	void testConcatMinusculas() {
-		assertEquals("copacotigofibrapersonalvoxpesimoservicioerror", Cadenas.concatMinusculas(_lista).get());
+		assertEquals("copacotigofibrapersonalvoxpesimoservicio", Cadenas.concatMinusculas(_lista).get());
 	}
 
 }
