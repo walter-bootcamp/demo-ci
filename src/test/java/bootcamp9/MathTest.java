@@ -8,7 +8,10 @@ class MathTest {
 
 	@Test
 	void testSum() {
-		assertEquals(3, Math.sum(1, 1));
+		assertEquals(2, Math.sum(1, 1));
 	}
-
+	@Test
+	void testDivide() {
+		assertEquals(5, Math.divide(10, 2));
+	}
 }
